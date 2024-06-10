@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb11a36c.css",
+    "main.js": "/static/js/main.8d52d27f.js",
+    "static/js/453.8bdc27ca.chunk.js": "/static/js/453.8bdc27ca.chunk.js",
+    "static/media/bg2.png": "/static/media/bg2.3c15db8661b99c681121.png",
+    "static/media/rikendai1.mp4": "/static/media/rikendai1.9b07225c03876ffb9d5b.mp4",
+    "static/media/dai4.png": "/static/media/dai4.7a5e6e7db8eb8f0b40db.png",
+    "static/media/dai3.jpg": "/static/media/dai3.1538f3d29b1e1df1ca4b.jpg",
+    "static/media/dai2.jpg": "/static/media/dai2.069ca98e09f0d991f824.jpg",
+    "static/media/dai1.jpg": "/static/media/dai1.61e587df1b69ef6fe34c.jpg",
+    "static/media/user-2.png": "/static/media/user-2.b22c59baa927c1be0d2e.png",
+    "static/media/user-3.png": "/static/media/user-3.12915e16ed909bbd9b48.png",
+    "static/media/user-4.png": "/static/media/user-4.50ce69a0306667eba2c1.png",
+    "static/media/ndslogo.png": "/static/media/ndslogo.2fe86ed0175fe65483e3.png",
+    "static/media/user-1.png": "/static/media/user-1.1f46bb883fe387830efd.png",
+    "static/media/web1.jpg": "/static/media/web1.55ad5084f8b128ed1d8f.jpg",
+    "static/media/IOT2.jpg": "/static/media/IOT2.68430e8b6b0d96b0c09c.jpg",
+    "static/media/IOT3.jpg": "/static/media/IOT3.c3302ee81fe2529309f8.jpg",
+    "static/media/emb.jpg": "/static/media/emb.7345915ecafba525e959.jpg",
+    "index.html": "/index.html",
+    "main.cb11a36c.css.map": "/static/css/main.cb11a36c.css.map",
+    "main.8d52d27f.js.map": "/static/js/main.8d52d27f.js.map",
+    "453.8bdc27ca.chunk.js.map": "/static/js/453.8bdc27ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb11a36c.css",
+    "static/js/main.8d52d27f.js"
+  ]
+}
