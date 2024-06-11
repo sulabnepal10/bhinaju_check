@@ -42,7 +42,7 @@
  .contact form input, .contact form textarea{
     display: block;
     width: 100%;
-    background: #9999a3;
+    background: #9999a369;
     padding: 15px;
     border: 0;
     outline: 0;
@@ -50,6 +50,7 @@
     margin-bottom: 15px;
     resize: none;
     border-radius: 20px;
+    font-size: 18px;
     
  }
  

@@ -3,21 +3,39 @@ import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import App1 from './App1';
 
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 import reportWebVitals from './reportWebVitals';
-
-
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>
+  },
+  {
+    path: "/",
+    element: <App1/>
+  },
+]);
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
-    <App/>,
-    
-  </StrictMode>
+
+  <React.StrictMode>
+    <App/>
+<App1/>
+
+ 
+ 
+</React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

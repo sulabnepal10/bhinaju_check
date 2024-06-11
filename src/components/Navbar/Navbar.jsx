@@ -22,8 +22,9 @@ const Navbar = () => {
 
 
     <nav className={` navbar container ${sticky? 'dark-nav' : '' }`}>
-    <img src ={logo} alt="logo" className='logo' />
+   <Link to = 'hero' smooth={true} offset={0} duration={500}> <img src ={logo}  alt="logo" className='logo' /></Link> 
     
+
   
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
@@ -36,13 +37,13 @@ const Navbar = () => {
           <a className="nav-link" href="/program"><Link to='program' smooth={true} offset={-260} duration={500}>Services</Link></a>
           <div class="content"> 
 
-            <a href="/">IoT</a>
+            <a href="/section1">IoT</a>
 
-           <a href="/">Embedded System Engineering</a>
+           <a href="/section2">Embedded System Engineering</a>
 
-            <a href="/">Web Application Development</a>
+            <a href="/section3">Web Application Development</a>
 
-            <a href="/">Mobile Application Development</a>
+            <a href="/section3">Mobile Application Development</a>
 
            </div>
 
@@ -63,9 +64,11 @@ const Navbar = () => {
           <a className="nav-link" href="./testimonials"><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></a>
         </li>
 
-        <a href='./join'>Joinus </a>
-        
         <li> <Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact Us</Link></li>
+        
+        <li> <Link to='inputs' smooth={true} offset={-260} duration={500} className='btn'>Join Us</Link></li>
+        
+        
        
           
         </ul>
