@@ -23,7 +23,7 @@ With IoT, data is transferable over a network without requiring human-to-human o
     
     <br></br>
 
-    <section class="section1 section-left " id="about">
+    <section class="section1 section-left " id="aboutt">
         <div class="paras">
        <p class="sectionTag text-big">What We Do?</p>
        <p class="sectionSubTag text-small"> 

@@ -17,7 +17,7 @@ const App1 = () => {
           <Route  path= '/section1' element = {<IOT />} />
           <Route  path= '/section3' element = {<Web />} />
         </Routes>
-        <Services />
+       
     
     </BrowserRouter>
   )

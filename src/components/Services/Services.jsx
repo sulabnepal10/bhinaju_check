@@ -7,35 +7,40 @@ import program_icon_1 from '../../assets/program-icon-1.png'
 import program_icon_2 from '../../assets/program-icon-2.png'
 import program_icon_3 from '../../assets/program-icon-3.png'
 import {Link} from "react-router-dom"
+import { useNavigate } from 'react-router-dom'
 
 const Services = () => {
+
+    const navigate = useNavigate();
+
   return (
-    <Link className='programs'>
+    <div className='programs'>
       <div className="program">
      <Link to= 'section1'>  <img src={program_1}  width={301} height={383} alt ="" /></Link> 
         <figcaption>IoT</figcaption>
         <div className="caption">
-        <img src={program_icon_1}   alt="" />
+        <img src={program_icon_1} onClick={()=>navigate("/section1")}  alt="" />
             <p></p>
         </div>
       </div>
       <div className="program">
-       <Link to = 'section2'> <img src={program_2} width={301} height={383} alt ="" /></Link>
+       <Link to = 'section2'>< img src={program_2} width={301} height={383} alt ="" /></Link>
         <figcaption>Embedded System Engineering</figcaption>
         <div className="caption">
-            <img src={program_icon_2}   alt="" />
+        <Link to = 'section2'>  <img src={program_icon_2} onClick={()=>navigate("/section2")}  alt="" /></Link>
             <p></p>
         </div>
       </div>
       <div className="program">
-      <Link to ='section3'> <img src={program_3}  width={301.3} height={383} alt ="" /> </Link>
-        <figcaption>Web Development</figcaption>
+       <img   src={program_3}  width={301.3} height={383} alt ="" />
+       
+        <figcaption >Web Development</figcaption>
         <div className="caption">
-            <img src={program_icon_3} alt="" />
+            <img src={program_icon_3} onClick={()=>navigate("/section3")} alt="" />
             <p></p>
         </div>
       </div>
-    </Link>
+    </div>
   )
 }
 

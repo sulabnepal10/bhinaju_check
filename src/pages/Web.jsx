@@ -18,7 +18,7 @@ const Web = () => {
 
 <br></br>
 
-<section class="section3 section-left" id="about">
+<section class="section3 section-left" id="aboutt">
     <div class="paras">
    <p class="sectionTag text-big">What We Do?</p>
    <p class="sectionSubTag text-small"> 

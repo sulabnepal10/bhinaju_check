@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/ndslogo.png'
-import { Link} from 'react-scroll';
+import { Link } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -37,13 +39,13 @@ const Navbar = () => {
           <a className="nav-link" href="/program"><Link to='program' smooth={true} offset={-260} duration={500}>Services</Link></a>
           <div class="content"> 
 
-            <a href="/section1">IoT</a>
+           <NavLink to="/section1">IoT </NavLink>
 
-           <a href="/section2">Embedded System Engineering</a>
-
-            <a href="/section3">Web Application Development</a>
-
-            <a href="/section3">Mobile Application Development</a>
+           <NavLink to="/section2">Embedded System Engineering </NavLink>
+           <NavLink to="/section3">Web Application Development </NavLink>
+           <NavLink to="/section3">Mobile Application Development </NavLink>
+          
+          
 
            </div>
 
