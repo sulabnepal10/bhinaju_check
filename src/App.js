@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import { BrowserRouter ,Routes,  Route } from "react-router-dom";
+import {  Route, Routes, Link,NavLink } from 'react-router-dom';
+
 
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -25,18 +26,29 @@ const App = () => {
   const [playState, setPlayState] = useState(false);
 
   return (
-    <div>
-      <BrowserRouter>
+    
+      
+        <div>
+       
       <Navbar />
+     
+          
 
       <Hero />
       <div className="container">
+      <Title subtitle="Our Services" title="What We Offer" />
 
-        <Title subtitle="Our Services" title="What We Offer" />
-      
         
-       <Services/>
+      
        
+         
+    <Routes>
+
+      <Route path="/" element={<Services/>} />
+      <Route  path= '/section2' element = {<Emb />} />
+      <Route  path= '/section1' element = {<IOT />} />
+      <Route  path= '/section3' element = {<Web />} />
+    </Routes>
        
 
 
@@ -55,9 +67,10 @@ const App = () => {
       
 
       <VideoPlayer playState={playState} setPlayState={setPlayState} />
-      </BrowserRouter>
-    </div>
+      </div>
     
+    
+      
    
   );
 };

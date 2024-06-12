@@ -48,3 +48,17 @@ a{
     background: #212EA0;
     color: white;
 }
+
+@media(max-width: 1280px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+
+    }
+    
+
+
+}

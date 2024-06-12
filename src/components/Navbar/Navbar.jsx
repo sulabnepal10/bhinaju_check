@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/ndslogo.png'
+import menu_icon from '../../assets/menu-icon.png'
+
 import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
-
-
-
-
 
 
 const Navbar = () => {
@@ -20,6 +18,12 @@ const Navbar = () => {
   },[]);
 
 
+  const [mobileMenu,setMobileMenu]= useState(false);
+  const toggleMenu = () => {
+        mobileMenu ? setMobileMenu(false): setMobileMenu(true);
+  }
+
+
   return (
 
 
@@ -29,7 +33,7 @@ const Navbar = () => {
 
   
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav mr-auto">
+      <ul className={mobileMenu?'':'hide-mobile-menu'}>
         <li className="nav-item active">
           <a className="nav-link" href="/"><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></a>
         </li>
@@ -74,6 +78,7 @@ const Navbar = () => {
        
           
         </ul>
+        <img src={menu_icon} alt="" srcset="" className='menu-icon' onClick={toggleMenu} />
       
     </div>
   </nav>

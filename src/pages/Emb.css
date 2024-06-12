@@ -42,11 +42,12 @@
     border-radius:26px;
     margin-top: 19px;
 }
-.text-big{
+.text-big h2{
     font-size: 45px;
-    color: #212EA0;
+    color:#000F38;
 }
 
 .text-small{
     font-size: 24px;
+    color:#676767;
 }
