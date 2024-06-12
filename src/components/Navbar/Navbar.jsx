@@ -72,7 +72,7 @@ const Navbar = () => {
 
         <li> <Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact Us</Link></li>
         
-        <li> <Link to='inputs' smooth={true} offset={-260} duration={500} className='btn'>Join Us</Link></li>
+      
         
         
        

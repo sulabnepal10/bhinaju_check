@@ -28,30 +28,24 @@ const App = () => {
   return (
     
       
-        <div>
+  <div>
        
       <Navbar />
      
           
 
       <Hero />
-      <div className="container">
-      <Title subtitle="Our Services" title="What We Offer" />
+    <div className="container">
+          <Title subtitle="Our Services" title="What We Offer" />
 
-        
-      
+        <Routes>
+
+             <Route exact path="/" element={<Services/>} />
+             <Route exact path= '/section2' element = {<Emb />} />
+             <Route exact path= '/section1' element = {<IOT />} />
+             <Route exact path= '/section3' element = {<Web />} />
+         </Routes>
        
-         
-    <Routes>
-
-      <Route exact path="/" element={<Services/>} />
-      <Route   exact path= '//section2' element = {<Emb />} />
-      <Route  exact path= '/section1' element = {<IOT />} />
-      <Route  exact path= '/section3' element = {<Web />} />
-    </Routes>
-       
-
-
         <About setPlayState={setPlayState} />
         <Title subtitle="Gallery" title="Office Photos" />
         <Campus />
@@ -62,12 +56,12 @@ const App = () => {
         <Title  title="Come With Us" />
         <Joinus />
         <Footer />
-      </div>
+    </div>
 
       
 
-      <VideoPlayer playState={playState} setPlayState={setPlayState} />
-      </div>
+    <VideoPlayer playState={playState} setPlayState={setPlayState} />
+  </div>
     
     
       

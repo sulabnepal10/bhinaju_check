@@ -17,7 +17,7 @@ body{
 }
 
 .text{
-    color: #3c009d;
+    color: #212EA0;
     font-size: 48px;
     font-weight: 700;
 }
@@ -25,7 +25,7 @@ body{
 .underline{
     width: 61px;
     height: 6px;
-    background: #3c009d;
+    background: #212EA0;
     border-radius: 9px;
 
 }
