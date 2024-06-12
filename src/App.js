@@ -44,10 +44,10 @@ const App = () => {
          
     <Routes>
 
-      <Route path="/" element={<Services/>} />
-      <Route  path= '/section2' element = {<Emb />} />
-      <Route  path= '/section1' element = {<IOT />} />
-      <Route  path= '/section3' element = {<Web />} />
+      <Route exact path="/" element={<Services/>} />
+      <Route   exact path= '//section2' element = {<Emb />} />
+      <Route  exact path= '/section1' element = {<IOT />} />
+      <Route  exact path= '/section3' element = {<Web />} />
     </Routes>
        
 
