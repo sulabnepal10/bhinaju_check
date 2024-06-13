@@ -1,7 +1,7 @@
 import React from 'react'
-import './Title.css'
+import './Gallery.css'
 
-const Title = ({subtitle,title}) => {
+const Gallery = ({subtitle,title}) => {
   return (
     <div className='title'>
         <p>{subtitle}</p>
@@ -10,4 +10,4 @@ const Title = ({subtitle,title}) => {
   )
 }
 
-export default Title
+export default Gallery
