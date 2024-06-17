@@ -27,10 +27,10 @@ const Services = () => {
       
 
       <div className="program">
-       <NavLink to = 'section2'>< img src={program_2} width={301} height={383} alt ="" /></NavLink>
+       <NavLink to = '/section2'>< img src={program_2} width={301} height={383} alt ="" /></NavLink>
         <figcaption>Embedded System Engineering</figcaption>
         <div className="caption">
-        <NavLink to = 'section2'>  <img src={program_icon_2} onClick={()=>navigate("/section2")}  alt="" /></NavLink>
+        <NavLink to = '/section2'>  <img src={program_icon_2} onClick={()=>navigate("/section2")}  alt="" /></NavLink>
             <p></p>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Services = () => {
        <img src={program_3}  width={301.3} height={383} alt ="" />
         <figcaption >Web Development</figcaption>
         <div className="caption">
-        <NavLink to = 'section3'>   <img src={program_icon_3} onClick={()=>navigate("/section3")} alt="" /></NavLink>
+        <NavLink to = '/section3'>   <img src={program_icon_3} onClick={()=>navigate("/section3")} alt="" /></NavLink>
             <p></p>
         </div>
       </div>
